@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #34495E; 
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000; 
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+.navbar img {
+    height: 40px; 
+    vertical-align: middle;
+}
+
+.content {
+    padding-top: 60px; 
+    text-align: center;
+    color: #fff; 
+}
+
+.form-container {
+    width: 50%;
+    margin: 0 auto; 
+    margin-bottom: 100px;
+}
+
+form {
+    background-color: #5499C7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color:black;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color:#000066;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 300px;
+}
+
+button[type="submit"]:hover {
+    background-color:#330066;
+}
+
+.team-list {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.team-list table {
+    width: 75%;
+    margin: 0 auto; 
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.team-list th,
+.team-list td {
+    border: 1px solid #ffffff;
+    padding: 12px;
+    text-align: left;
+    color: #000000;
+}
+
+.team-list th {
+    background-color: #fffafa;
+    color: #000000;
+}
+
+.team-list button {
+    padding: 6px 12px;
+    background-color:#0B5345;
+    color: #fff;
+    border: none; 
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.team-list button:hover {
+    background-color: #138D75;
+}
+
+
+.logout-button {
+    float: right;
+}
+
+.logout-button a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar a:hover,
+.logout-button a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000; 
+    padding: 10px 0;
+    text-align: center;
+    color: #fff; 
+}

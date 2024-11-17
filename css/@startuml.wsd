@@ -1,0 +1,43 @@
+@startuml
+start
+
+:Visit the website;
+if (Provide Vehicle Maintenance Tips?) then (Yes)
+  :Providing Vehicle Maintenance Tips;
+endif
+
+if (Answer FAQs?) then (Yes)
+  :Answering Frequently Asked Questions;
+endif
+
+if (Offer Troubleshooting Guides?) then (Yes)
+  :Offering Step-by-Step Troubleshooting Guides;
+endif
+
+if (Provide Info on Nearest Service Centers?) then (Yes)
+  :Providing Information on Nearest Service Centers;
+endif
+
+if (Assist with Booking Service?) then (Yes)
+  :Assisting with Booking Service Appointments;
+endif
+
+if (Provide Service Status Updates?) then (Yes)
+  :Providing Updates on Service Status;
+endif
+
+if (Explain Warranty Info?) then (Yes)
+  :Explaining Warranty and Coverage Information;
+endif
+
+if (Provide Recall Info?) then (Yes)
+  :Providing Recall Information;
+endif
+
+if (Assist with Account or Profile Updates?) then (Yes)
+  :Assisting with Account or Profile Updates;
+endif
+
+stop
+
+@enduml
